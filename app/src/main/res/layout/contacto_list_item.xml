@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:text="Pedro Hernandez"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="match_parent"
+        android:text="4647653224"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
